@@ -1,0 +1,20 @@
+body {
+    padding-top: 90px;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+h2 {
+    text-align: center;
+}

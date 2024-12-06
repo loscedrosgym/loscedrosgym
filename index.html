@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Cedros Gimnasio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" href="los-cedros-favicon.png">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="los-cedros-logo.jpg" alt="Los Cedros Logo" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Página Principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="section">
+            <div class="container">
+                <h1>Gimnasio Los Cedros</h1>
+                <p>Tu gimnasio de confianza desde 1980</p>
+                <p>📍 La Plata 70 e/ 2 y 3 N 381</p>
+                <p>🕐 Lun - Vie 7 a 22hs / Sáb 9 a 13hs</p>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>Sobre Nosotros</h2>
+                <p>En Los Cedros, somos un gimnasio con más de 40 años de experiencia, comprometidos con tu bienestar físico y mental. Desde 1980, hemos acompañado a nuestros socios en su camino hacia una vida más saludable, ofreciendo un espacio moderno y funcional en La Plata, ubicado en 70 entre 2 y 3 (N 381).</p>
+                <p>Nos diferenciamos por brindar una atención personalizada y un ambiente familiar donde cada socio es tratado de manera única.</p>
+                <p>Con un equipo de profesionales altamente capacitados, te ofrecemos entrenamientos adaptados a tus necesidades, desde clases de musculación hasta actividades grupales como pilates.</p>
+                <p>Nuestro horario de atención es de lunes a viernes, de 7 a 22 hs, y los sábados de 9 a 13 hs, para que puedas adaptar tu rutina a tus tiempos y necesidades. Ya sea que busques mejorar tu rendimiento, reducir el estrés o simplemente mantenerte activo, Los Cedros está aquí para acompañarte en cada paso de tu proceso.</p>
+                <p>Los Cedros no es solo un gimnasio, es un lugar donde el compromiso con tu bienestar es nuestra prioridad.</p>
+                <br>
+                <div id="map" class="mt-4"></div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contacto</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>Dirección</h3>
+                        <p>📍 La Plata 70 e/ 2 y 3 N 381</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Horario</h3>
+                        <p>🕐 Lun - Vie 7 a 22hs / Sáb 9 a 13hs</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Redes Sociales</h3>
+                        <a href="https://www.instagram.com/loscedrosgimnasio/" target="_blank" class="btn btn-primary">
+                            <img src="instagram-logo.png" alt="Instagram" height="30"> Seguinos en Instagram
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-light text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Los Cedros Gimnasio. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDivZPxc_lw41EU6XxItYwomEFuZA2A9uk&callback=initMap" async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
